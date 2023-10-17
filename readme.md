@@ -59,11 +59,11 @@ Below is a guide of how to use the escrow dapp:
 7)  Connect the Arbiter wallet to the dapp.
 8)  Choose a deployed escrow contract to approve.
 9)  Approve transaction in Metamask popout.
-10)  Once approved, the approved escrow contract details will appear in the section "Contracts Stored on Struct"
+10)  Once approved, the approved escrow contract details will appear in the section "Contracts Stored on Struct".
 
 ![Screenshot 2023-10-17 at 8 36 24 AM](https://github.com/YapBarry/Alchemy_University_Week_5/assets/58761788/bbe84f13-ddab-4f45-bc69-72a880323542)
 
 ## Future Improvements
-1) Contracts to approve disappear once website is refreshed
+1) Contracts to approve disappear once website is refreshed.
 2) Add timestamp for contracts that have been approved.
 
