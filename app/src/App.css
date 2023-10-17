@@ -1,0 +1,118 @@
+.App {
+  display: flex;
+  font-family: 'Muli', sans-serif;
+}
+
+#light {
+  background-color: #fff;
+}
+
+#dark {
+  background-color: #000;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+  font-size: calc(10px + 2vmin);
+  background: #e4e4e4; /* Set background color for header in light mode */
+  color: #000; /* Set text color for header in light mode */
+}
+
+#light .App-header {
+  background: #fff; /* Set background color for header in light mode */
+  color: #000; /* Set text color for header in light mode */
+}
+
+#dark .App-header {
+  background: #000; /* Set background color for header in light mode */
+  color: #fff; /* Set text color for header in light mode */
+}
+
+.contract {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background: #fff; /* Set background color for "contract" in light mode */
+  color: #000; /* Set text color for "contract" in light mode */
+}
+
+#light .contract {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background: #fff; /* Set background color for "contract" in light mode */
+  color: #000; /* Set text color for "contract" in light mode */
+}
+
+#dark .contract {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background: #000; /* Set background color for "contract" in light mode */
+  color: #fff; /* Set text color for "contract" in light mode */
+}
+
+.contract label {
+  display: flex;
+  align-items:left;
+  margin-bottom: 10px;
+}
+
+#light div label input {
+  color: #000;
+  background: #fff;
+  width: 450px;
+}
+
+#dark div label input {
+  color: #fff;
+  background: #000;
+  width: 450px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.existing-contracts {
+  margin-top: 20px;
+}
+
+#light .existing-contracts {
+  background: #fff;
+  color: #000;
+}
+
+#dark .existing-contracts {
+  background: #000;
+  color: #fff;
+}
+
+#light .fields {
+  background: #fff;
+  color: #000;
+}
+
+#dark .fields {
+  background: #000;
+  color: #fff;
+}
+
+.complete {
+  color: green;
+}
+
+/* app.css */
+input[type="text"] {
+  width: 300px; /* Set the desired width (e.g., 200px) */
+  /* Additional styling properties if needed */
+}
